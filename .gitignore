@@ -12,6 +12,8 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Dependency directories
 node_modules/
+client/node_modules/
+server/node_modules/
 jspm_packages/
 
 # TypeScript
@@ -39,10 +41,14 @@ next-env.d.ts
 .env.test.local
 .env.production.local
 .env.local
+client/.env
+server/.env
 
 # Vite / Build outputs
 dist/
 dist-ssr/
+client/dist/
+server/dist/
 *.local
 
 # Editor directories and files
@@ -62,3 +68,5 @@ desktop.ini
 
 # Testing
 /coverage
+client/coverage/
+server/coverage/
